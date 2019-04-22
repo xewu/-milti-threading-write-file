@@ -7,4 +7,5 @@
 ```
 ReadWriteLock rwlock = new ReentrantReadWriteLock();
 rwlock.readLock().lock();
+rwlock.writeLock().lock();
 ```
